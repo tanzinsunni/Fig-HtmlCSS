@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700;9..40,800&display=swap');
+
+.bg{
+background-color: white;
+}
+.nav {
+    display: none; 
+
+}
+.menu{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+nav ul li a {
+   text-decoration: none;
+   display:flex;
+   align-items: center;
+color: black;
+font-size: 16px;
+font-family: DM Sans;
+font-weight: 500;
+word-wrap: break-word;
+color: #fff;
+}
+.twobtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menulist{
+    display: flex;
+}
+nav.open {
+    display: flex; 
+    flex-direction: column;
+    align-items: flex-start;
+}
+.logo{
+    color: black;
+font-size: 26px;
+font-family: Poppins;
+font-weight: 600;
+word-wrap: break-word
+}
+.button_1{
+    width: 100%; 
+    height: 100%; 
+    padding-left: 28px; 
+    padding-right: 28px; 
+     padding-bottom: 13px; 
+     background: black; 
+     border-radius: 24px; 
+     border: 2px solid; 
+     justify-content: flex-start; 
+     align-items: flex-start; 
+     gap: 10px; 
+     display: inline-flex;
+}
+.button_2{
+    color: white; 
+    font-size: 16px; 
+    font-family:DM Sans; 
+     font-weight: 500; 
+     word-wrap: break-word;
+    
+}
+.section{
+    display: flex;
+    width: 1440px;
+    padding: 100px 24px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+
+}
+.half{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  
+  
+}
+.half h1{
+    
+    color: black;
+    font-size: 80px;
+    font-family: DM Sans;
+    font-weight: 700;
+    line-height: 82px;
+    word-wrap: break-word;
+font-size: 80px;
+width: 459px;
+height: 246px;
+}
+.half p{
+    
+    color: #262626;
+     font-size: 20px;
+     font-family: DM Sans;
+     font-weight: 400;
+     line-height: 32px;
+     width: 400px;
+     height: 64px;
+     word-wrap: break-word
+    }
+       
+    
+    .email-text{
+     
+        color: #666666;
+         font-size: 16px;
+       
+         font-family: DM Sans;
+         font-weight: 500;
+         word-wrap: break-word
+    }
+    
+        .text{
+            color: black;
+font-size: 16px;
+font-family: DM Sans;
+font-weight: 700;
+word-wrap: break-word
+
+
+        }
+.para{
+    display:flex;
+    
+}
+
+
+.half img{
+  
+    
+    display: flex;
+    width: 640px;
+    height: 400px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    flex-shrink: 0;
+}
+
